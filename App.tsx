@@ -5,6 +5,7 @@ import InputRow from './components/InputRow';
 import ResultsCard from './components/ResultsCard';
 import CalculationDetails from './components/CalculationDetails';
 import type { FuelCalculationResult } from './types';
+import { Analytics } from "@vercel/analytics/next"
 
 const App: React.FC = () => {
   const [e10Mileage, setE10Mileage] = useState(20);
