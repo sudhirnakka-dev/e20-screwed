@@ -1,0 +1,5 @@
+{
+  "name": "E10 vs E20 Fuel Cost Calculator",
+  "description": "A simple tool to calculate and compare the fuel costs of E10 and E20 gasoline based on your vehicle's mileage, fuel prices, and daily travel distance.",
+  "requestFramePermissions": []
+}
