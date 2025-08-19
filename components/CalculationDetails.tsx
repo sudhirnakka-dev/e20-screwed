@@ -10,10 +10,10 @@ const formatCurrency = (value: number) => {
   return value.toLocaleString('en-IN', { style: 'currency', currency: 'INR', minimumFractionDigits: 2 });
 };
 
-const CalculationDetails: React.FC<CalculationDetailsProps> = ({ e10Data, e20Data }) => {
+const CalculationDetails: React.FC<CalculationDetailsProps> = ({ e10Data, e20Data, dailyDistance }) => {
   return (
     <div className="mt-6 bg-white p-6 rounded-lg shadow-lg border border-slate-200 animate-fade-in">
-      <h3 className="text-xl font-semibold text-slate-800 mb-4 text-center">Detailed Breakdown</h3>
+      <h3 className="text-xl font-semibold text-slate-800 mb-4 text-center">Detailed Breakdown (For {dailyDistance} kms)</h3>
       <div className="overflow-x-auto">
         <table className="w-full text-left border-collapse">
           <thead>

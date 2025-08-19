@@ -116,7 +116,7 @@ const App: React.FC = () => {
             </button>
         </div>
 
-        {showDetails && <CalculationDetails e10Data={e10Results} e20Data={e20Results} />}
+        {showDetails && <CalculationDetails e10Data={e10Results} e20Data={e20Results} dailyDistance={dailyDistance} />}
       </main>
     </div>
   );
